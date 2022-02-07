@@ -1,0 +1,21 @@
+body{
+    background: rgb(228,191,67);
+    background: linear-gradient(90deg, rgba(228,191,67,0.9304096638655462) 72%, rgba(168,168,78,0.9722222222222222) 100%);
+}
+head{
+    background: rgb(228,191,67);
+    background: linear-gradient(90deg, rgba(228,191,67,0.9304096638655462) 72%, rgba(168,168,78,0.9722222222222222) 100%);
+}
+.colormenu{
+    background: rgb(228,191,67);
+    background: linear-gradient(90deg, rgba(228,191,67,0.9304096638655462) 72%, rgba(168,168,78,0.9722222222222222) 100%);
+}
+nav ul li:hover{
+    transform: scale(1.6);
+    transition: 1s;
+}
+@media only screen and (max-width:768px) and (min-width: 576px) {
+    .textoindex{
+        margin-top: 50px;
+    }
+}
